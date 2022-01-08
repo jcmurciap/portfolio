@@ -116,5 +116,18 @@ body.dark {
     font-size: 1.4rem;
 }
 
+/* -------------contact me----------------- */
 
+.logos {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: 40px;
+}
+
+.logo:hover {
+    box-shadow: 0.5px 0.5px 5px #000000;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
