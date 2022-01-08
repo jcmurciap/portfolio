@@ -123,6 +123,10 @@ body.dark {
     margin-top: 40px;
 }
 
+.logo {
+    border-radius: 50%;
+}
+
 .logo:hover {
     box-shadow: 0.5px 0.5px 5px #000000;
     border-radius: 50%;
