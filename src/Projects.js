@@ -19,7 +19,7 @@ export const Projects = () => {
                 <h1 className='description-title'>Projects</h1>
                 <div className='projects'>
                     <div className='project'>
-                        <img className='project-image' src={project1} alt="development project" width={200} height={200}/>
+                        <img className='project-image' src={project1} alt="development project" width={200} height={150}/>
                         <h4 className='project-title'>Project title</h4>
                         <aside>
                             <small className='project-title'>Tools used</small>
@@ -34,7 +34,7 @@ export const Projects = () => {
                         </aside>
                     </div>
                     <div className='project'>
-                        <img className='project-image' src={project2} alt="development project" width={200} height={200}/>
+                        <img className='project-image' src={project2} alt="development project" width={200} height={150}/>
                         <h4 className='project-title'>Project title</h4>
                         <aside>
                             <small className='project-title'>Tools used</small>
@@ -49,7 +49,7 @@ export const Projects = () => {
                         </aside>
                     </div>
                     <div className='project'>
-                        <img className='project-image' src={project3} alt="development project" width={200} height={200}/>
+                        <img className='project-image' src={project3} alt="development project" width={200} height={150}/>
                         <h4 className='project-title'>Project title</h4>
                         <aside>
                             <small className='project-title'>Tools used</small>
