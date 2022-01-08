@@ -67,11 +67,9 @@ body.dark {
 }
 
 .container {
-    margin-top: 50px;
-    margin-bottom: 50px;
     width: 700px;
-    margin: 0 auto;
-    margin-top: 40px;
+    margin: 50px auto;
+    height: auto;
 }
 
 
@@ -129,5 +127,41 @@ body.dark {
     box-shadow: 0.5px 0.5px 5px #000000;
     border-radius: 50%;
     cursor: pointer;
+}
+
+/* ----------projects------------- */
+
+.container-projects {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.projects {
+    display: flex;
+    margin-top: 50px;
+}
+
+.project {
+    width: 230px;
+}
+
+.project-image {
+    cursor: pointer;
+    background: none;
+    border-radius: 5px;
+}
+.project-image:hover {
+    opacity: 0.9;
+    box-shadow: 0.5px 0.5px 0.1px 2px lightgray;
+}
+
+.project-title {
+    font-family: var(--fontBase);
+}
+.tools {
+    display: flex;
+    column-gap: 3px;
+    row-gap: 5px;
+    flex-wrap: wrap;
 }
 
