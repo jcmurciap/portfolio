@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1f83f285.css",
+    "main.css": "/portfolio/static/css/main.af73f4de.css",
     "main.js": "/portfolio/static/js/main.236e6c8f.js",
     "static/media/profile.jpg": "/portfolio/static/media/profile.aee0b34d91b3a72f8e4e.jpg",
     "static/media/project3.png": "/portfolio/static/media/project3.475f409e6933acd6471a.png",
@@ -13,11 +13,11 @@
     "static/media/gmail-logo.jpg": "/portfolio/static/media/gmail-logo.55becd4a2ab9272486f3.jpg",
     "static/media/ts.png": "/portfolio/static/media/ts.57404d482d7e3a5d2a59.png",
     "index.html": "/portfolio/index.html",
-    "main.1f83f285.css.map": "/portfolio/static/css/main.1f83f285.css.map",
+    "main.af73f4de.css.map": "/portfolio/static/css/main.af73f4de.css.map",
     "main.236e6c8f.js.map": "/portfolio/static/js/main.236e6c8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f83f285.css",
+    "static/css/main.af73f4de.css",
     "static/js/main.236e6c8f.js"
   ]
 }
