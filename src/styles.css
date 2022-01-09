@@ -69,7 +69,7 @@ body.dark {
 .container {
     width: 700px;
     margin: 50px auto;
-    height: auto;
+    height: 1300px;
 }
 
 
@@ -169,3 +169,60 @@ body.dark {
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 920px) {
+    .container {
+        padding: 20px;
+        font-size: 1.2rem;
+        margin-top: 60px;
+    }
+    .box {
+        margin-right: 0px;
+        align-items:center;
+    }
+    .header {
+        display: flex;
+    }
+    .title {
+        margin-top: 10px;
+        
+    }
+    .image {
+        transform: scale(1.1);
+    }
+    .description {
+        font-size: 1.7rem;
+    }
+    .logos {
+        column-gap: 20px;
+        transform: scale(1.2);
+    }
+    .description-title {
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+    }
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+    .project {
+        width: 300px;
+    }
+    .project-image {
+        width: 280px;
+        height: 200px;
+    }
+    .project-title {
+        font-size: 1.5rem;
+    }
+    .dark-mode-toggler {
+        transform: scale(1.5);
+        display: flex;
+        width: 550px;
+        margin-top: 20px;
+    }
+
+}
