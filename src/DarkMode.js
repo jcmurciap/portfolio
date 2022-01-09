@@ -1,26 +1,28 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
 
 export const DarkMode = () => {
+
     
-    let chk = document.getElementById('chk');
+    const [toggler, setToggler] = useState(document.getElementById('chk'))
     
     const handleToggler = () => {
-        chk.addEventListener('change', () => {
+        toggler.addEventListener('change', () => {
             document.body.classList.toggle('dark');
         });        
-    }
-
+    };
+    
     useEffect(() => {
-        chk = document.getElementById('chk');
-    },);
+        setToggler(document.getElementById('chk'));
+    });
 
     return (
-        <div className="dark-mode-toggler" onClick={handleToggler}>
-            <input className="checkbox" type="checkbox" id="chk" />
+        <div className="dark-mode-toggler" >
+            <input className="checkbox" type="checkbox" id="chk" onClick={handleToggler} />
             <label className="label" htmlFor="chk">
                 <div className="ball"></div>
             </label>
         </div>
     );
 };
+

@@ -21,6 +21,8 @@ html, body {
 
 body.dark {
     background: #292C35;
+    color: white;
+    transition: all .5s ease-in-out;
 }
 
 .dark-mode-toggler {
